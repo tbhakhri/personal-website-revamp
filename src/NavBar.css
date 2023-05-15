@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    color: white;
+    font-family: 'Inter';
+    background: #232323;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    min-height: 70px;
+    z-index: 2;
+}
+
+.my-name {
+    display: flex;
+    justify-content: left;
+    left: 0%;
+    height: 70%;
+    width: max-content;
+    height: 70%;
+    width: 50%;
+    margin-left: 2%;
+}
+
+
+.options{
+    text-align: right;
+    padding-right: 2%;
+    display: flex;
+    justify-content: right;
+    width: 80%;
+    overflow-x: hidden;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+.navbar :hover{
+    color: black;
+    border-radius: 10px;
+}
+
+.option-individual:hover{
+    background-color: white;
+    color: #232323;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+}
+
+.option-individual{
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+  a{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  a:hover{
+    color: #232323;
+    text-decoration: none;
+  }
+
+
+.button {
+    background: none!important;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    width:100%;
+    font-family: "Circular-Med";
+}
+
