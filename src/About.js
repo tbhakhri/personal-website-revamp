@@ -8,8 +8,9 @@ function About(){
             </div>
             <div className = "about-description">
                 I'm a student based in the New York Metropolitan Area who is currently pursuing a Computer Science degree at the 
-                University of California, Berkeley. As of now, I am an aspiring software engineer but I hope to gain experience with 
-                ML/AI, VR, and quantum computing. Feel free to take a look around my website and get to know me!
+                University of California, Berkeley. As of now, I am an aspiring software engineer, but I hope to gain experience with 
+                ML/AI, VR, and quantum computing. Feel free to take a look around my website and get to know me, and don't hesitate to 
+                reach out if you have any questions. 
             </div>
             <div className = "circle-holder">
                 <div className = "circle">
