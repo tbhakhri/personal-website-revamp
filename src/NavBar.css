@@ -1,9 +1,7 @@
 .navbar{
     display: flex;
     width: 100%;
-    color: white;
     font-family: 'Inter';
-    background: #232323;
     position: fixed;
     top: 0;
     justify-content: center;
@@ -11,17 +9,15 @@
     height: 9vh;
     min-height: 70px;
     z-index: 2;
+    background-color: white;
 }
 
 .my-name {
     display: flex;
     justify-content: left;
-    left: 0%;
     height: 70%;
-    width: max-content;
-    height: 70%;
-    width: 50%;
-    margin-left: 2%;
+    width: 6%;
+    font-size: 1.5em;
 }
 
 
@@ -46,19 +42,16 @@
 }
 
 .option-individual:hover{
-    background-color: white;
-    color: #232323;
-    border-radius: 10px;
+    color: #ed4b9e;
     text-decoration: none;
 
 
 }
 
 .option-individual{
-    padding-left: 20px;
     padding-right: 20px;
     cursor: pointer;
-    color: white;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -69,7 +62,7 @@
   }
 
   a:hover{
-    color: #232323;
+    color: #ed4b9e;
     text-decoration: none;
   }
 

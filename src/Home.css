@@ -1,18 +1,22 @@
 .home-holder{
-    display: flex;
-    flex-direction: column;
     margin-right: 5%;
+    margin-left: 43%;
     margin-top: 5%;
-    text-align: right;
+    text-align: left;
 }
 
 .description{
     font-size: larger;
-    margin-left: 50%;
+    font-size: 2.5em;
 }
 
 .intro{
-    font-size: 1.5em;
+    margin-top: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 4em;
+    line-height: 15%;
+    color: #000000;
 }
 
 .name{
