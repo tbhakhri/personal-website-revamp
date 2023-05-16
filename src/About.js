@@ -7,61 +7,75 @@ function About(){
                 <h1>About</h1>
             </div>
             <div className = "about-description">
-                When I was younger, I wanted to be everything from a Marine Biologist, to President. My career plans have certainly changed, 
-                but what’s remained the same is a passion for problem solving, mathematics, and technology. I’m always looking for new fields 
-                to gain experience in!
+                I'm a student based in the New York Metropolitan Area who is currently pursuing a Computer Science degree at the 
+                University of California, Berkeley. As of now, I am an aspiring software engineer but I hope to gain experience with 
+                ML/AI, VR, and quantum computing. Feel free to take a look around my website and get to know me!
             </div>
             <div className = "circle-holder">
                 <div className = "circle">
-                    <span className = "pre-hover">
-                        Talk to me about...
-                    </span>
+                    <div className = "circle-inner">
+                        <div className = "circle-front">
+                            <div className = "front-content">
+                                Talk to me about...
+                            </div>
+                        </div>
 
-                    <span className = "post-hover">
-                        <ul>
-                            <li>Software Engineering</li>
-                            <li>ML/AI</li>
-                            <li>Quantum Physics</li>
-                            <li>Mathematics</li>
-                            <li>Poetry</li>
-                            <li>Anime</li>
-                            <li>Christopher Nolan Movies</li>
-                            <li>Classical Music</li>
-                        </ul>
-                    </span>
+                        <div className = "circle-back">
+                            <div className = "back-content">
+                                <li>Software Engineering</li>
+                                <li>ML/AI</li>
+                                <li>Quantum Physics</li>
+                                <li>Mathematics</li>
+                                <li>Poetry</li>
+                                <li>Anime</li>
+                                <li>Christopher Nolan Movies</li>
+                                <li>Classical Music</li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className = "circle">
-                    <span className = "pre-hover">
-                        Classes I've Taken...
-                    </span>
-                    <span className = "post-hover">
-                        <ul>
-                            <li>The Structure and Interpretation of Computer Programs</li>
-                            <li>Discrete Math and Probability Theory</li>
-                            <li>Linear Algebra and Differential Equations</li>
-                        </ul>
-                    </span>
+                    <div className = "circle-inner">
+                        <div className = "circle-front">
+                            <div className = "front-content">
+                                Classes I've Taken...
+                            </div>
+                        </div>
+
+                        <div className = "circle-back">
+                            <div className = "back-content">
+                                <li>Interpretation of Computer Programs</li>
+                                <li>Discrete Math and Probability Theory</li>
+                                <li>Linear Algebra and Differential Equations</li>
+                                <li>Data Structures</li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className = "circle">
-                    <span className = "pre-hover">
-                        Skills I have...
-                    </span>
-                    <span className = "post-hover">
-                        <ul>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>React.js</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>PostgreSQL</li>
-                            <li>Google OAuth</li>
-                            <li>R</li>
-                            <li>C++</li>
-                            <li>MATLAB</li>
-                        </ul>
-                    </span>
+                    <div className = "circle-inner">
+                        <div className = "circle-front">
+                            <div className = "front-content">
+                                Skills I have...
+                            </div>
+                        </div>
+
+                        <div className = "circle-back">
+                            <div className = "back-content">
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>React.js</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>PostgreSQL</li>
+                                <li>Google OAuth</li>
+                                <li>Scheme</li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
