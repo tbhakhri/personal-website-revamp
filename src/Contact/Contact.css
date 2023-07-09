@@ -1,0 +1,64 @@
+.contact-title{
+    font-size: 6em;
+    margin-left: 1%;
+    font-family: 'Archivo-Black';
+    color: #ffb4da;
+    text-shadow: 0.1em 0.1em 0em #C7F5FA;
+}
+
+.contact-instructions {
+    text-align: center;
+}
+
+.contact-content{
+    margin-left: 1%;
+    font-family: 'Cabin';
+    font-size: 2em;
+}
+
+.contact-holder {
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 50%;
+}
+
+.image-contact {
+    margin-right: 5%;
+    margin-bottom: 3%;
+    height: 10%;
+    width: 30%;
+}
+
+.image-and-info-contact {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    height: 5%;
+}
+
+
+.image-caption {
+    font-size: 0.75em;
+    color: gray;
+}
+
+.image-holder-contact {
+    width: 80%;
+    text-align: center;
+    margin: 5% auto;
+    padding: 4%;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.flexed-contact-specific {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.made-with-love {
+    text-align: right;
+    font-size: 0.75em;
+}

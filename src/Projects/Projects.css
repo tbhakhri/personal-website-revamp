@@ -1,0 +1,20 @@
+.projects-holder{
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.projects-title{
+    font-size: 6em;
+    height: 100%;
+    margin-left: 1%;
+    font-family: 'Archivo-Black';
+    color: #ffb4da;
+    text-shadow: 0.1em 0.1em 0em #C7F5FA;
+    margin-bottom: 3%;
+}
+
+.projects{
+    margin-right: 1%;
+    margin-left: 1%;
+}

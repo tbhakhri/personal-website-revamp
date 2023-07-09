@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home.js';
-import NavBar from './NavBar.js';
+import Home from './Home/Home.js';
+import NavBar from './components/NavBar/NavBar.js';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import About from './About.js';
+import React from 'react';
+import Experience from './Experience/Experience.js';
+import Projects from './Projects/Projects.js';
+import Contact from './Contact/Contact.js';
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
         <div className = "body">
             <Routes>
                 <Route exact path = "/" element = {<Home/>} />
-                <Route path = "/about" element = {<About/>} />
+                <Route path = '/experiences' element={<Experience />} />
+                <Route path='/projects' element={<Projects />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </div>
     </div>

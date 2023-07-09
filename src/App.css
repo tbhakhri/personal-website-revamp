@@ -1,5 +1,6 @@
-.App {
-  font-family: 'Inter';
+html{
+
+  background-color: #fffaed;
 }
 
 .App-logo {
@@ -13,6 +14,16 @@
   }
 }
 
+@font-face {
+  font-family: 'Archivo-Black';
+  src: url('./assets/ArchivoBlack-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: url('./assets/Cabin-VariableFont_wdth\,wght.ttf');
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +32,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

@@ -1,0 +1,69 @@
+.project-box{
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.proj-title{
+    font-size: 3em;
+    font-family: 'Archivo-black';
+    color: #FFB4DA;
+}
+
+.proj-pos{
+    font-family: 'Archivo-black';
+    color: #56CCF2;
+    font-size: 2em;
+}
+
+.proj-dates{
+    font-family: 'Archivo-black';
+    color: #BD9EFF;
+    font-size: 2em;
+}
+
+.proj-skills{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.skill{
+    background-color: #F4D94C;
+    padding: 1%;
+    font-family: 'Archivo-black';
+    color: white;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    margin-right: 2%;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+
+.proj-desc{
+    font-family: 'Cabin';
+    font-size: 1.7em;
+    width: 90%;
+}
+
+.proj-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+}
+
+.project-text{
+    width: 90%;
+}

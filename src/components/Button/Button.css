@@ -1,0 +1,80 @@
+.button-holder{
+    width: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+.button-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 5 / 2;
+    min-width: 100px;
+    align-items:center;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color: #BD9EFF;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Cabin';
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+#dashed-button-frame-1 {
+    display: none;
+    border: 2px dashed #FFB4DA;
+    height: 95%;
+    border-radius: 15px;
+    width: 100%;
+    top: -10%;
+    left: -5%;
+    position: absolute;
+    z-index: 0;
+}
+
+#dashed-button-frame-2 {
+    display: none;
+    border: 2px dashed #56CCF2;
+    height: 95%;
+    border-radius: 15px;
+    width: 100%;
+    bottom: -10%;
+    right: -5%;
+    position: absolute;
+    z-index: 0;
+}
+
+button:hover~#dashed-button-frame-1{
+    display: block;
+}
+button:hover~#dashed-button-frame-2{
+    display: block;
+}
+
+button:active~#dashed-button-frame-1{
+    display: block;
+}
+
+button:active~#dashed-button-frame-2{
+    display: block;
+}
