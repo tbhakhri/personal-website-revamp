@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home/Home.js';
 import NavBar from './components/NavBar/NavBar.js';
@@ -17,7 +16,7 @@ function App() {
         </div>
         <div className = "body">
             <Routes>
-                <Route exact path = "/" element = {<Home/>} />
+                <Route exact path = "/about" element = {<Home/>} />
                 <Route path = '/experiences' element={<Experience />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/contact' element={<Contact />} />
