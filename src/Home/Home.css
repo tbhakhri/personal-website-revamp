@@ -307,7 +307,7 @@
     display: block;
     background-color: white;
     border-radius: 30px;
-    width: 70%;
+    width: 80%;
     padding: 5%;
     height: 700px;
     margin: 0 auto;
@@ -321,16 +321,16 @@
     display: flex;
     margin: 6% auto;
     position: relative;
-    width: 60%;
+    width: 63%;
 }
 
 .dashed-frame-2{
     border: 2px dashed #BD9EFF;
     height: 700px;
     padding: 5%;
-    width: 67%;
-    top: 3%;
-    left: 5%;
+    width: 77%;
+    top: 2%;
+    left: 2%;
     border-radius: 30px;
     position: absolute;
     z-index: -2;
@@ -341,9 +341,9 @@
     border: 2px solid #BD9EFF;
     height: 700px;
     padding: 5%;
-    width: 67%;
-    top: 5%;
-    left: 8%;
+    width: 77%;
+    top: 4%;
+    left: 4%;
     position: absolute;
     z-index: -2;
     border-radius: 30px;
@@ -354,9 +354,9 @@
     border: 2px dashed #F59C9C;
     height: 700px;
     padding: 5%;
-    width: 67%;
+    width: 77%;
     bottom: 3%;
-    right: 5%;
+    right: 3%;
     border-radius: 30px;
     position: absolute;
     z-index: -2;
@@ -367,9 +367,9 @@
     border: 2px solid #F59C9C;
     height: 700px;
     padding: 5%;
-    width: 67%;
-    bottom: 5%;
-    right: 8%;
+    width: 77%;
+    bottom: 4%;
+    right: 4%;
     position: absolute;
     z-index: -2;
     border-radius: 30px;
@@ -381,7 +381,7 @@
     height: 19%;
     background-color: #C7F5FA;
     top: 2%;
-    right: 6%;
+    right: 2%;
     position: absolute;
     opacity: 50%;
     z-index: -4;
@@ -394,8 +394,8 @@
     height: 5.7%;
     background-color: #BD9EFF;
     opacity: 70%;
-    top: -1%;
-    right: 4%;
+    top: 0%;
+    right: 0%;
     z-index: -3;
 }
 
@@ -404,7 +404,7 @@
     height: 19%;
     background-color: #C7F5FA;
     bottom: 2%;
-    left: 6%;
+    left: 2%;
     position: absolute;
     opacity: 50%;
     z-index: -4;
@@ -416,8 +416,8 @@
     height: 5.7%;
     background-color: #ffb4da;
     opacity: 70%;
-    bottom: -1%;
-    left: 4%;
+    bottom: 0%;
+    left: 0%;
     z-index: -3;
 }
 
