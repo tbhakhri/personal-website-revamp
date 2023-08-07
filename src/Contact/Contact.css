@@ -13,7 +13,13 @@
 .contact-content{
     margin-left: 1%;
     font-family: 'Cabin';
-    font-size: 2em;
+    font-size: 1.8em;
+}
+.contact-exclamation{
+    margin-left: 1%;
+    font-family: 'Archivo-Black';
+    font-size: 1.5em;
+    color: #ffb4da;
 }
 
 .contact-holder {

@@ -24,6 +24,11 @@ html{
   src: url('./assets/Cabin-VariableFont_wdth\,wght.ttf');
 }
 
+@font-face {
+  font-family: 'Livvic';
+  src: url('./assets/Livvic-Regular.ttf');
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

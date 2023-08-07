@@ -108,7 +108,7 @@ function Home(){
                 )})}
         </div>
 
-    const Interests = () => <div className = "info-box">{interestBoxes.map(function (interest){
+    const Interests = () => <div className = "info-box-flexed">{interestBoxes.map(function (interest){
             return (
                 <div className = "box-text" key={interest.type}>
                     <div className = "semester-name">{interest.type}</div>
@@ -117,7 +117,7 @@ function Home(){
                 )})}
         </div>
 
-    const Skills = () => <div className = "info-box">{skillBoxes.map(function (skill){
+    const Skills = () => <div className = "info-box-flexed">{skillBoxes.map(function (skill){
             return (
                 <div className = "box-text" key={skill.type}>
                     <div className = "semester-name">{skill.type}</div>

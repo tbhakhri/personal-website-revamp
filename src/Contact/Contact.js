@@ -12,8 +12,11 @@ function Contact(){
             </div>
             <div className = "contact-content">
                 <div className = "image-holder-contact">
+                <div className = "contact-exclamation">
+                    Let's connect!
+                </div>
                 <div className = "contact-instructions">
-                    Want to connect? Click one of the icons below!
+                    Click one of the icons below!
                 </div>
                 
                 <div className = "flexed-contact-specific">

@@ -355,8 +355,8 @@
     height: 700px;
     padding: 5%;
     width: 77%;
-    bottom: 3%;
-    right: 3%;
+    bottom: 2%;
+    right: 2%;
     border-radius: 30px;
     position: absolute;
     z-index: -2;
@@ -426,6 +426,13 @@
     text-align: left;
 }
 
+.info-box-flexed {
+    font-family: 'Cabin';
+    text-align: left;
+    display: flex;
+}
+
+
 li{
     list-style: none;
 }
@@ -445,6 +452,7 @@ li{
     font-size: 1.3em;
     text-align: left;
     margin-bottom: 2%;
+    margin-right: 10%;
 }
 
 .semester-name {
