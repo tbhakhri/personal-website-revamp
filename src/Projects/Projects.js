@@ -2,6 +2,7 @@ import ProjectBox from "./ProjectBox";
 import "./Projects.css";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import FadeInSection from "../components/FadeInSection/FadeInSection";
 
 
 function Projects(){
@@ -51,7 +52,7 @@ function Projects(){
             </div>
             <div className = "projects">
                 {projectBoxes.map(item => {
-                    return <ProjectBox name={item['name']} dates={item['dates']} desc={item['description']} pos={item['position']} skills={item['skills']} key={item['name']} image={item['image']} />
+                    return <FadeInSection><ProjectBox name={item['name']} dates={item['dates']} desc={item['description']} pos={item['position']} skills={item['skills']} key={item['name']} image={item['image']} /></FadeInSection>
                     })
                 }
             </div>
