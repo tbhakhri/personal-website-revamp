@@ -37,7 +37,6 @@ function Experience(){
 
       items.sort((a, b) => a.order - b.order);
 
-      console.log(items);
       setExperienceBoxes(items);
     })
     .catch(err=> console.log(err))

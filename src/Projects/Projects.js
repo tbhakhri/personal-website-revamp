@@ -36,7 +36,6 @@ function Projects(){
       });
       items.sort((a, b) => a.order - b.order);
 
-      console.log(items);
       setProjectBoxes(items);
     })
     .catch(err=> console.log(err))

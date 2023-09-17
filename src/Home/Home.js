@@ -40,7 +40,6 @@ function Home(){
         interests.push(interest);
         });
 
-        console.log(interests);
         setInterestBoxes(interests);
     })
 
@@ -57,13 +56,13 @@ function Home(){
         let entry = record.fields;
         let course = {
             semester: entry["Semester"],
-            courses: entry["Courses"]
+            courses: entry["Courses"],
+            order: entry["Order"]
         }
         courses.push(course);
         });
 
-        courseBoxes.sort((a, b) => a.order - b.order);
-        console.log(courses);
+        courses.sort((a, b) => a.order - b.order);
         setCourseBoxes(courses);
     })
     .catch(err=> console.log(err))
@@ -85,7 +84,6 @@ function Home(){
         skills.push(skill);
         });
 
-        console.log(skills);
         setSkillBoxes(skills);
     })
     .catch(err=> console.log(err))
@@ -125,8 +123,6 @@ function Home(){
                     </div>
                 )})}
         </div>
-    
-    console.log(courseBoxes);
 
     const [displayText, setDisplayText] = useState("i1");
 
